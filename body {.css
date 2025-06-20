@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: url("pexels-rpnickson-2775196.jpg");
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.image-box {
+  text-align: center;
+}
+
+.image-box img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:20px;
+}
+header  .navbar{
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar .logo{
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+.navbar .logo span {
+  color: #C06B3E;
+}
+.navbar .menu-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+position: sticky;
+top: 0;
+align-items: center;
+}
+.nav links .nav-cta-button{
+  padding: 10px 18px;
+  margin-left: 16px;
+  border: rgb(45, 13, 173) solid 2px;
+  border-radius: 50px;
+}
+.nav-links .nav-cta-button:hover{
+  background-color: rgb(red, green, blue);
+}
+.nav-links a{
+  text-transform: uppercase;
+  display: block;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+na{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+}
